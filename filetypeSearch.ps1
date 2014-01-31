@@ -49,4 +49,4 @@ if($addSlash -eq $true){
 echo "`r`nWorking..."
 Get-ChildItem -Path $pathToSearch -Include $extArray -Recurse | Export-Csv $nameOfOutput
 echo ''
-Write-Host "DONE. File is located at $nameOfOutput`r`n"  
+Write-Host "DONE. File is located at $nameOfOutput`r`n"   
